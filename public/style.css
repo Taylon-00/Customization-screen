@@ -113,3 +113,18 @@ body {
     text-align: center;
     color: #162938;
 }
+
+.wrapper {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transform: scale(0);
+    transition: transform .5s , height .2s ease;
+}
+
+.wrapper.active-popup {
+    transform: scale(1);
+    
+
+}
